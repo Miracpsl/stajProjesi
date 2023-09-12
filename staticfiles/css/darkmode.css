@@ -1,0 +1,165 @@
+:root{
+    --bg-card-color-1:rgb(26, 27, 27);
+    --bg-card-color-2:rgb(55, 58, 58);
+    --bg-card-color-3:rgb(53, 52, 52);
+    --bg-card-color-4:rgb(45, 48, 55);
+
+}
+
+body.dark-mode{
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+}
+
+
+
+body.dark-mode .owl-carousel{
+    background-color:var(--bg-card-color-1);
+}
+
+body.dark-mode .owl-prev,
+body.dark-mode .owl-next {
+    color: rgb(91, 98, 116) !important;
+}
+
+body.dark-mode .forum-istatistik , body.dark-mode .forum-istatistik .nav-link, body.dark-mode .position *{
+    background-color: var(--bg-card-color-1) !important;
+    color: whitesmoke !important;
+}
+
+
+body.dark-mode thead *,  body.dark-mode .post, body.dark-mode .breadcrumbs__item ,body.dark-mode .breadcrumbs__item:after {
+    background-color: rgb(79, 86, 102) !important;
+    color: whitesmoke;
+}
+
+
+body.dark-mode .forumlar .card:nth-child(even) , body.dark-mode .post, body.dark-mode .modal-content{
+
+    background-color: var(--bg-card-color-2);
+    color: white;
+}
+body.dark-mode .forumlar .card:nth-child(odd) * {
+    background-color: var(--bg-card-color-1);
+    color: white;
+}
+
+body.dark-mode .main_right .card *{
+    background-color: var(--bg-card-color-3);
+    color: white;
+}
+body.dark-mode footer, body.dark-mode .information *{
+    background-color:var(--bg-card-color-4);
+    color: white;
+}
+
+ body.dark-mode .breadcrumbs__item:hover{
+    background-color: rgb(114, 121, 134) !important;
+ }
+body.dark-mode .border-subject {
+    background-color:var(--bg-card-color-4)  !important;
+    color: whitesmoke;
+}
+body.dark-mode .iconlar i {
+    color:whitesmoke;
+}
+
+body.dark-mode .post-bg {
+    background-color: rgb(20, 20, 20) !important;
+}
+
+body.dark-mode .table tbody {
+
+    background: var(--bg-card-color-2);
+}
+
+body.dark-mode .forumlar .card:nth-child(2n) * {
+    color: whitesmoke !important;
+}
+
+
+body.dark-mode .owlgreenBtn {
+    color: whitesmoke !important;
+}
+
+body.dark-mode .active>.page-link,
+.page-link.active {
+    color: whitesmoke !important;
+    background-color: rgb(114, 121, 134) !important;
+}
+
+body.dark-mode .page-item:not(:first-child) .page-link:hover {
+    background-color: var(--bg-card-color-4);
+    color: whitesmoke;
+}
+
+body.dark-mode .page-item:first-child .page-link {
+    background-color: var(--bg-card-color-4);
+    color: whitesmoke;
+}
+
+body.dark-mode section {
+
+    background: var(--bg-card-color-2);
+}
+
+body.dark-mode .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: rgb(114, 121, 134) !important;
+    color: white;
+}
+
+body.dark-mode .nav-item a {
+    color: gray;
+}
+
+body.dark-mode .colorclass a {
+    color: gray;
+}
+
+body.dark-mode .form-check-input[type="checkbox"]:checked {
+    background-image: none;
+    background-color: gray !important;
+}
+
+body.dark-mode .form-check-input:checked {
+    border-color: gray !important;
+}
+
+body.dark-mode .orangeBG{
+    background-color: rgb(114, 121, 134) !important;
+        color: white;
+}
+
+body.dark-mode .orangeBG:hover{
+    background-color: var(--bg-card-color-1) !important;
+    color: white;
+}
+
+body.dark-mode .orangeBtn{
+    background-color: var(--bg-card-color-4) !important;
+        color: white;
+}
+
+body.dark-mode .orangeBtn:hover{
+    background-color: grey !important;
+        color: white;
+}
+
+body.dark-mode .mini-text-color{
+    color: whitesmoke !important;
+    opacity: 0.75 !important;
+}
+
+body.dark-mode .toast-box{
+
+    background: var(--bg-card-color-2) !important;
+    color: rgb(222, 112, 112) !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+body.dark-mode .toast {
+
+    background-color: black !important; 
+  }

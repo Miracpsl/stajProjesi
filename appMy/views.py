@@ -112,4 +112,10 @@ def Query(request):
     }
 
     return render(request, 'search.html',context)
-    
+
+def view_404(request,exception):
+    return redirect('/')
+
+def view_500(request):
+    return render(request,'error.html')
+   
